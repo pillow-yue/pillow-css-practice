@@ -1,0 +1,447 @@
+.header{
+	width: 100%;
+	height: 56px;
+	background-color: #0eab58;
+}
+.headerIn{
+	height: 56px;
+	padding: 21px 0;
+}
+
+
+.headerIn a{
+	color: #fff;
+}
+.headerL{
+	width: 200px;
+}
+.headerL li{
+	float: left;
+}
+
+
+
+.headerIn a:hover{
+	text-shadow: 2px 4px 3px #666;
+	color:#eee;
+}
+
+
+
+
+.area{
+	position: relative;
+	padding-left:20px;
+ 
+}
+.map{
+	width: 12px;
+	height: 16px;
+	background: url(../images/sprite.fw.png) no-repeat -238px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.login{
+	margin-right: 16px;
+	margin-left: 50px;
+}
+
+.headerR{
+	width: 487px;
+	height: 56px;
+	line-height: 56px;
+    margin-top: -21px;
+
+}
+.headerR li{
+	float: left;
+	padding: 0 16px;
+}
+.headerR .client{
+	padding-right: 0;
+}
+
+
+
+.logoArea{
+	height: 112px;
+}
+.logo-pic{
+	width: 300px;
+	height: 112px;
+	padding-top: 16px;
+	margin-right: 80px;
+}
+
+.logo-search{
+	width: 510px;
+	height: 112px;
+	padding-top:36px;
+}
+
+.logo-shop{
+	width: 200px;
+	height: 35px;
+	position: relative;
+	margin-top: 36px;
+
+
+}
+.cart{
+	float: left; 
+	margin:8px 0 0 20px; 
+	font-size:18px;
+}
+.aaa:hover{
+	transform: rotate(360deg);
+	
+}
+
+.logo-shop div{
+	width: 33px;
+	height: 33px;
+	background: url(../images/sprite.fw.png) no-repeat 0 -132px;
+}
+
+
+.logo-pic a{
+	display: block;
+	width: 283px;
+	height: 80px;
+	background: url(../images/logo.png) no-repeat center center;
+	text-indent: -9999px;
+
+	position: relative;
+	top: 0;
+	transition: all 1s;
+}
+
+.logo-pic a:hover{
+	transform: rotate(360deg);
+}
+
+.logo-search input{
+	width: 400px;
+	height: 40px;
+	border: 1px solid #1da45d;
+	border-right: 0;
+	padding-left: 140px;
+	background: url("../images/search.png") no-repeat 117px 12px;
+	float: left;
+	transition: all 0.5s;
+
+}
+.logo-search input:hover{
+	border-radius: 20px;
+}
+
+.logo-search button{
+	width: 100px;
+	height: 40px;
+	background-color: #1da45d;
+	float: left;
+	font-size: 20px;
+	color: #fff;
+	transition: all 0.5s;
+}
+.logo-search button:hover{
+	transform: scale(1.1, 1.1);
+
+}
+
+
+
+
+.banner{
+	width: 100%;
+	height: 676px;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.bannerIn{
+	width: 1440px;
+	height: 676px;
+	position: absolute;
+	left: 50%;
+	margin-left: -720px;
+	overflow: hidden;
+}
+.banner>ul{
+	width: 1000%;
+
+}
+
+.bannerIn>ul li{
+	float: left;
+}
+.circle{
+	width: 234px;
+	height: 14px;
+	position: absolute;
+	left: 50%;
+	margin-left: -117px;
+	bottom: 38px;
+}
+.circle span{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-color: #fff;
+	border-radius: 7px;
+	margin: 0 18px;
+}
+
+
+.menu{
+	width: 215px;
+	height: 650px;
+	position: absolute;
+	top: 0;
+	left: 120px;
+}
+.menu h3{
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	background-color: #0eab58;
+}
+.menu ul li{
+	height: 82px;
+	line-height: 82px;
+	border-bottom: 1px solid #0eab58;
+	padding-left: 95px;
+	font-size: 20px;
+	position: relative;
+	background-color: rgba(255,255,255,0.6);
+	transition: all 0.5s;
+	left: 0;
+
+}
+.menu ul li:hover{
+	background-color: #0eab58;
+	left: 8px;
+
+}
+.menu ul li:hover a{
+	color: #fff;
+}
+
+.li1{
+	background: url("../images/1111.png") no-repeat 39px 25px;
+}
+.li1:hover{
+	background: url("../images/111.png") no-repeat 39px 25px;
+}
+.li2{
+	background: url("../images/2222.png") no-repeat 38px 24px;
+}
+.li2:hover{
+	background: url("../images/222.png") no-repeat 38px 24px;
+}
+.li3{
+	background: url("../images/3333.png") no-repeat 38px 32px;
+}
+.li3:hover{
+	background: url("../images/333.png") no-repeat 38px 32px;
+}
+.li4{
+	background: url("../images/4444.png") no-repeat 40px 24px;
+}
+.li4:hover{
+	background: url("../images/444.png") no-repeat 40px 24px;
+}
+.li5{
+	background: url("../images/5555.png") no-repeat 38px 30px;
+}
+.li5:hover{
+	background: url("../images/555.png") no-repeat 38px 30px;
+}
+.li6{
+	background: url("../images/6666.png") no-repeat 39px 24px;
+}
+.li6:hover{
+	background: url("../images/666.png") no-repeat 39px 24px;
+}
+.li7{
+	background: url("../images/7777.png") no-repeat 37px 25px;
+}
+.li7:hover{
+	background: url("../images/777.png") no-repeat 37px 25px;
+}
+
+
+.hot1,.hot2{
+	width: 590px;
+	height: 342px;
+	position: relative;
+	transition: all 1s;
+	top: 0;
+}
+
+.hot1:hover,.hot2:hover{
+	top: -12px;
+	box-shadow: 0 4px 12px #ccc;
+}
+
+
+.hot1 a,.hot2 a{
+	width: 74px;
+	height: 26px;
+	border-radius: 10px;
+	border: 1px solid #ef2828;
+	position: absolute;
+	left: 195px;
+	bottom: 82px;
+	text-align: center;
+	line-height: 26px;
+}
+.hot1 a:hover,.hot2 a:hover{
+	background-color: #ef2828;
+	color: #fff;
+}
+
+
+
+.main1{
+	height: 866px;
+	border-bottom: 1px solid ;
+}
+.main1 h3{
+	height: 100px;
+	line-height: 100px;
+	font-size: 32px;
+	color: #1da45d;
+}
+
+.carrot{
+ 	width: 1064px;
+	height: 56px;
+ 	margin-bottom:-10px;
+ 	background: url("../images/49.png");
+	background-size: contain;
+ 	background-size: 100px 56px;
+	animation: move 5s linear infinite;
+	display: inline-block;
+
+ }
+
+ @keyframes move{
+ 	from{
+
+	}
+ 	to{
+ 		background-position: 100px 0;
+ 	}
+ }
+
+.mainB{
+	height: 766px;
+}
+.mainB-left{
+	width: 486px;
+	height: 709px;
+	position: relative;
+	top: 0;
+	transition: all 1s;
+}
+.mainB-left:hover{
+	top: -8px;
+	box-shadow: 4px 4px 12px #999;
+}
+
+.mainB-right{
+	width: 693px;
+	height: 709px;
+}
+.pro1{
+	width: 231px;
+	height: 340px;
+	float: left;
+	border: 1px solid #ccc;
+	border-right:0;
+	position: relative;
+	top: 0;
+	transition: all 1s;
+}
+.pro1:hover{
+	top: -6px;
+	box-shadow: 0 4px 8px #ccc;
+}
+
+
+.pro1-bot{
+	width: 229px;
+	height: 92px;
+	padding: 0 24px;
+	position: relative;
+}
+.p1,.p2{
+	font-size: 18px;
+	color: #cc3333;
+}
+.p3{
+	font-size: 14px;
+	color: #333;
+}
+.buy{
+	width: 24px;
+	height: 24px;
+	background: url(../images/sprite.fw.png) no-repeat -75px -140px;
+	position: absolute;
+	right: 24px;
+	bottom: 24px;
+
+}
+.border-r{
+	border-right: 1px solid #ccc;
+}
+.margin-b{
+	margin-bottom: 30px;
+}
+
+
+.slogan{
+	height: 156px;
+}
+.slogan span{
+	width: 240px;
+	height: 160px;
+	float: left;
+}
+
+
+.footer{
+	width: 100%;
+	height: 160px;
+	background-color: #0eab58;
+}
+.footerIn{
+	height: 160px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+.foot1{
+	height: 64px;
+	line-height: 64px;
+
+
+}
+.foot1 a,.foot2 a{
+	color: #fff;
+	margin:0 24px;
+}
+
+.foot3{
+	height: 48px;
+	line-height: 48px;
+}
+.foo4{
+	height: 64px;
+	line-height: 64px;
+}
